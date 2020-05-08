@@ -108,7 +108,8 @@ for i in range(4):
 
 #list out a string
 for i in range(len(things)):
-    print('Index' + str(i) _ ' in supplies is: ' + things[i])
+    print('Index ' + str(i) _ ' in supplies is: ' + things[i])
+
 
 cat = ['fat','orange','loud']
 #Multi-variable list
@@ -127,7 +128,7 @@ things.insert(1,'panda')#insert 'panda' at element position 1
 things.remove('bat')#remove the value 'bat' from the list, or the first occurance of the valiable
 things.sort()#Will sort ASCII alphabetical or smallest to largest. Uppercase will come before lowercase
 things.sort(reverse=True)#Sort in reverse alphabetical or largest to smallest
-thigns.sort(key=str.lower)#This will sort in true alphabetical order
+things.sort(key=str.lower)#This will sort in true alphabetical order
 
 #strings are immutable, they can not be changed
 name = 'Zophie a cat'
@@ -167,3 +168,33 @@ allCats.append({'name':'Fat-tail', 'age':5,'color':'gray'})
 allCats.append({'name':'???', 'age':-1,'color':'orange'})
 
 type(myCat)#Type will tell you what data type you pass to it
+
+newString = 'Hello World!'
+newString.upper()#All characters are now upper case
+newString.lower()#All Characters are now lower case
+
+newString.isupper()#All characters checked if upper case
+newString.islower()#All Characters checkeed if lower case
+newString.isalpha()#Checks if all characters are alpha
+newString.isalnum()#Checks if string is alpha numeric
+
+
+','.join(['cat', 'bat', 'rat', 'elephant'])#Will join all of the strings with a comma in between
+#output - 'cat,bat,rat,elephant'
+'My name is Simon'.split()#Split at each empty space by default
+#'my','name','is','Simon'
+'My name is Simon'.split(m)#Split wherever the letter 'm' is
+#'My na','e is Si','on'
+
+#rjust
+#ljust
+#center
+#strip
+
+#String formatting
+name = 'Alice'
+place = 'park'
+time = '6am'
+food = 'pizza'
+
+'Hello %s, you are invited to a party at %s at %s. Please bring %s.' % (name, place, time, food)
