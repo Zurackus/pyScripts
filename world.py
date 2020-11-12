@@ -18,9 +18,9 @@ for num in range(101): #will auto increase by 1
     total = total + num
 print(total)
 
-i = 0
-while i < 5:
-    print ('Jimmy five times ' + str(i))
+#i = 0
+#while i < 5:
+#    print ('Jimmy five times ' + str(i++))
 
 #Random number library
 import random
@@ -107,9 +107,8 @@ for i in range(4):
 #3
 
 #list out a string
-for i in range(len(things)):
-    print('Index ' + str(i) _ ' in supplies is: ' + things[i])
-
+#for i in range(len(things)):
+#    print('Index ' + str(i) _ ' in supplies is: ' + things[i])
 
 cat = ['fat','orange','loud']
 #Multi-variable list
