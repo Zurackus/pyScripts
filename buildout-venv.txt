@@ -1,0 +1,24 @@
+Activate/Deactivate:
+    Jump into venv
+    .\pyScripts\<name>\Scripts\activate
+    Exit venv
+    Deactivate
+
+Install module within venv
+    python -m pip install <module>
+
+Create:
+    python -m venv <name>
+
+Delete:
+    rmdir <directory>
+
+Sigma-cli
+    Command to convert
+        sigma convert -t <backend> -p <processing pipeline 1> -p <processing pipeline 2> [...] <directory or file>
+    List out all of the backends
+        sigma plugin list
+    List pipelines for backend
+        sigma list pipelines <backend>
+    Install specific backend
+        sigma plugin install <backend>

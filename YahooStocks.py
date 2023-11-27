@@ -11,12 +11,3 @@ def parsePrice():
 
 while True:
     print('The current price: '+str(parsePrice()))
-
-sdfa;lksdjfa;lkdjsfas
-
-asdfalkjsdfa;lksjdf
-asldkjfalskdf;jasdf
-
-asdfasdf
-asdfasd
-f
